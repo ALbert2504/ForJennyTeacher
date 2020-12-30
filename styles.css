@@ -1,0 +1,132 @@
+html, body {
+  font-family: 'Architects Daughter', cursive;
+}
+
+body {
+  background: url("./bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.wrapper {
+  /* width: 100vw; */
+  width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  margin-bottom: 10px;
+  font-size: 48px;
+  color: #ffae00;
+}
+.marked {
+  text-shadow: 0 0 5px orange;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+}
+.slider-container div {
+  text-align: center;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  transition: text-shadow .3s ease-in;
+}
+.slick-arrow:hover {
+  cursor: pointer;
+  text-shadow: 0 0 6px #000000;;
+}
+.slick-prev, .prev-arrow {
+  left: 0;
+}
+.slick-next, .next-arrow {
+  right: 0;
+}
+
+.slide-1 {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  /* padding: 75px; */
+}
+.slide-1__img {
+  width: 30%;
+}
+.slide-1__content {
+  font-size: 22px;
+  text-align: center;
+  width: 70%;
+  line-height: 1.25;
+  color: rgb(2, 2, 59);
+}
+
+.slide-2 {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.slide-2__img {
+  width: 30%;
+  margin: 50px 0;
+}
+.slide-2__content {
+  font-size: 22px;
+  text-align: center;
+  width: 70%;
+  line-height: 1.25;
+  color: rgb(2, 2, 59);
+  margin-right: 8px;
+}
+
+.slide-3 {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.slide-3__img {
+  width: 30%;
+  margin: 50px 0;
+}
+.slide-3__content {
+  font-size: 22px;
+  text-align: center;
+  width: 70%;
+  line-height: 1.25;
+  color: rgb(2, 2, 59);
+  margin-left: 8px;
+}
+.slide-4 {
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+}
+.slide-4__img {
+  max-height: 60vh;
+  /* width: 100%; */
+  /* max-width: 992px; */
+  /* max-height: 700px; */
+}
+.slide-4__content {
+  /* position: absolute; */
+  /* bottom: -75px;
+  left: 50%;
+  transform: translateY(-50%);
+  font-size: 25px; */
+  font-size: 25px;
+  margin-left: 8px;
+}
+.slide-4__content a {
+  color: rgb(43, 122, 226);
+}
