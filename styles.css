@@ -131,3 +131,9 @@ body {
 .slide-4__content a {
   color: rgb(43, 122, 226);
 }
+
+.song {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+}
