@@ -4,3 +4,9 @@ $(document).ready(function(){
     nextArrow: $('.next-arrow')
   });
 })
+
+const song = document.querySelector('.song');
+
+window.addEventListener('load', () => {
+  song.play();
+})

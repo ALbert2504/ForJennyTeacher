@@ -113,7 +113,8 @@ body {
   justify-content: flex-start;
 }
 .slide-4__img {
-  max-height: 60vh;
+  /* max-height: 60vh; */
+  width: 80%;
   /* width: 100%; */
   /* max-width: 992px; */
   /* max-height: 700px; */
